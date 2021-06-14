@@ -17,7 +17,7 @@
     "release": "node ../../scripts/release.js"
   },
   "engines": {
-    "node": ">=12.0.0"
+    "node": ">=v12.22.1"
   },
   "repository": {
     "type": "git",
@@ -29,16 +29,16 @@
   },
   "homepage": "https://github.com/vitejs/vite/tree/main/packages/plugin-vue#readme",
   "peerDependencies": {
-    "@vue/compiler-sfc": "^3.0.8"
+    "@vue/compiler-sfc": "^3.1.1"
   },
   "devDependencies": {
     "@rollup/pluginutils": "^4.1.0",
     "@types/hash-sum": "^1.0.0",
-    "@vue/compiler-sfc": "^3.0.8",
+    "@vue/compiler-sfc": "^3.1.1",
     "debug": "^4.3.1",
     "hash-sum": "^2.0.0",
-    "rollup": "^2.38.5",
+    "rollup": "^2.51.2",
     "slash": "^3.0.0",
-    "source-map": "^0.6.1"
+    "source-map": "^0.7.3"
   }
 }
